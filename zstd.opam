@@ -7,7 +7,7 @@ homepage: "https://xapi-project.github.io/"
 bug-reports: "https://github.com/xapi-project/xen-api.git"
 dev-repo: "git+https://github.com/xapi-project/xen-api.git"
 build: [[ "dune" "build" "-p" name "-j" jobs ]]
-
+echo "hello"
 available: [ os = "linux" ]
 depends: [
   "ocaml"
